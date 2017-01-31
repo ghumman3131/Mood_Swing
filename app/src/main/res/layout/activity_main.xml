@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASSA"
+        android:id="@+id/hassa_id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHUDAYI"
+        android:id="@+id/shudayi_id"
+        android:layout_toRightOf="@+id/hassa_id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUSSA"
+        android:id="@+id/gussa_id"
+        android:layout_toRightOf="@+id/shudayi_id"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ULJHA"
+        android:layout_toRightOf="@+id/gussa_id"
+        android:id="@+id/uljha_id"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOVE"
+        android:id="@+id/love_id"
+        android:layout_below="@+id/hassa_id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NZRANDAZ"
+        android:layout_below="@+id/shudayi_id"
+        android:layout_toRightOf="@+id/love_id"
+        android:id="@+id/ignore_id"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/angry"
+        android:id="@+id/mood_image_id"
+        android:layout_centerInParent="true"/>
+
+
+
+
+</RelativeLayout>
